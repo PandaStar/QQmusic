@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+#wrap {
+  width: 100%;
+  height: 17.7rem;
+}
+
+.header {
+  width: 100%;
+  height: 2rem;
+  background: rgba(214, 222, 227, 0.5);
+  text-align: center;
+  position: fixed;
+}
+.header .top_p {
+  padding: 0.5rem;
+  position: fixed;
+  font-size: 0.5rem;
+  color: white;
+}
+.header .wrld {
+  float: left;
+  font-size: 0.5rem;
+  color: white;
+  line-height: 1.5rem;
+  margin-left: 4.5rem;
+}
+.header .top_p_sp1 {
+  display: inline-block;
+  position: fixed;
+  right: 1rem;
+  font-size: 0.5rem;
+  float: right;
+  line-height: 2rem;
+}
+
+.tab {
+  width: 100%;
+  height: 13rem;
+  border: 1px solid #CCCCCC;
+}
+.tab div {
+  width: 100%;
+  height: 13rem;
+  float: left;
+  background: #CCC;
+  display: none;
+}
+.tab div.current {
+  width: 10rem;
+  height: 13rem;
+  display: block;
+  background: #404040;
+}
+.tab .current box .list {
+  margin-top: 2rem;
+  width: 100%;
+  height: 6rem;
+  border: 1px solid green;
+  display: block;
+}
+.tab .current box .list .list_1 {
+  width: 100%;
+  height: 2rem;
+  border: 1px solid #333333;
+  font-size: 0.37rem;
+  float: left;
+  list-style: none;
+}
+.tab .current box .list .list_1 .right {
+  float: right;
+  font-size: 0.5rem;
+}
+.tab .left {
+  margin-left: 0.3rem;
+}
+.tab .singer {
+  margin-left: 0.3rem;
+  width: 72%;
+  font-size: 0.37rem;
+  float: left;
+  line-height: 1.5rem;
+  border-bottom: 1px solid #6e6a6a;
+}
+
+#bos2 {
+  text-align: center;
+  background: #404040;
+}
+#bos2 .title_1 {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 100%;
+  height: 1rem;
+  display: block;
+  font-size: 0.5rem;
+  background: #404040;
+}
+#bos2 .title_3 {
+  float: left;
+  width: 6rem;
+  height: 2rem;
+  display: block;
+  background: #404040;
+  margin-left: 2.5rem;
+}
+#bos2 .title_3 div {
+  width: 24%;
+  height: 0.7rem;
+  float: left;
+  border: 2px solid white;
+  border-radius: 17px;
+  display: block;
+  text-align: center;
+  margin: 0.1rem;
+  margin-top: 0.3rem;
+  margin-left: 0.2rem;
+  background: #404040;
+  color: white;
+  font-size: 0.37rem;
+}
+#bos2 .title_3 div a {
+  font-size: 0.4rem;
+  text-align: center;
+  line-height: 0.7rem;
+}
+#bos2 .title_4 {
+  width: 100%;
+  height: 7rem;
+  display: block;
+  background: #404040;
+}
+#bos2 .title_4 img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 3rem;
+  margin-top: 0.5rem;
+}
+#bos2 .title_4 img.rotate {
+  -webkit-animation: circle 3s infinite linear;
+}
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+#bos2 .title_5 {
+  width: 100%;
+  height: 1rem;
+  font-size: 0.37rem;
+  display: block;
+  text-align: center;
+  background: #404040;
+}
+#bos2 .title_5 .words marquee {
+  background: #404040;
+}
+#bos2 .title_5 .words marquee p {
+  font-size: 0.37rem;
+  color: white;
+  text-align: center;
+}
+
+#bos3 {
+  text-align: center;
+  background: #404040;
+}
+#bos3 marquee p {
+  font-size: 0.37rem;
+  color: white;
+  text-align: center;
+}
+
+.div1_z {
+  width: 100%;
+  height: 1.5rem;
+  box-sizing: border-box;
+  border: 1px solid #CCCCCC;
+  background: #404040;
+}
+.div1_z .nav {
+  width: 3rem;
+  height: 0.7rem;
+  margin-left: 4.7rem;
+}
+.div1_z .nav li {
+  list-style: none;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 0.15rem;
+  background: rgba(3, 3, 3, 0.5);
+  float: left;
+  margin-left: 0.1rem;
+}
+.div1_z .nav li.active {
+  background: white;
+}
+
+.qqbox {
+  width: 10rem;
+  height: 1rem;
+  background: #404040;
+}
+.qqbox audio {
+  width: 10rem;
+  height: 1rem;
+}
+
+.footer {
+  width: 99;
+  height: 2.3rem;
+  text-align: center;
+  border: 1px solid #404040;
+  background: #404040;
+}
+.footer #xunhuan {
+  float: left;
+}
+.footer #onmusic {
+  margin-left: 1.3rem;
+  color: #36AB60;
+  float: left;
+}
+.footer #btn {
+  float: left;
+  overflow: hidden;
+  margin-left: 0.5rem;
+  margin-top: -0.7rem;
+}
+.footer #btn svg {
+  color: green;
+  display: block;
+  float: left;
+  margin: 0.2rem;
+  margin-top: 0.7rem;
+  line-height: 1.4rem;
+  display: none;
+}
+.footer #btn svg.play1 {
+  color: green;
+  display: block;
+  margin-left: 0.6rem;
+}
+.footer .taoxin {
+  float: left;
+}
+.footer .taoxin svg {
+  display: none;
+}
+.footer .taoxin svg.xin {
+  display: block;
+}
+.footer #menu {
+  display: block;
+  float: right;
+}
+.footer audio {
+  display: block;
+  width: 4rem;
+  height: 2.1rem;
+}
+.footer .btn2 {
+  float: left;
+  height: 1.2rem;
+  width: 100%;
+}
+.footer .btn2 svg {
+  float: left;
+  margin-left: 1.3rem;
+}
+.footer .btn2 #xiazai {
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=sunday.css.map */

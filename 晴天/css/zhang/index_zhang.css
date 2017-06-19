@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  width: 10rem;
+  height: 2.4rem;
+  background: #31C27C;
+  position: fixed;
+  top: 0;
+}
+header .div1_z {
+  width: 100%;
+  height: 1.5rem;
+  box-sizing: border-box;
+  border: 1px solid #CCCCCC;
+}
+header .div1_z .span1_z, header .div1_z ul {
+  display: block;
+  float: left;
+}
+header .div1_z .span1_z {
+  width: 1.4rem;
+  height: 100%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+header .div1_z .span1_z i {
+  display: block;
+  color: white;
+  font-size: 1em;
+}
+header .div1_z ul {
+  width: 7.1rem;
+  color: white;
+  font-size: 0.5rem;
+}
+header .div1_z ul li {
+  float: left;
+  width: 33%;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #e6e6e6;
+}
+header .div1_z ul li.on {
+  color: white;
+}
+header .div2_z {
+  border-radius: 10px;
+  width: 96%;
+  height: 0.7rem;
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 5px;
+  color: white;
+  line-height: 0.7rem;
+  background: #29a167;
+  position: fixed;
+  left: 0.12rem;
+}
+header .div2_z i {
+  color: white;
+  font-size: 1em;
+}
+
+.se1 {
+  margin-top: 2.4rem;
+  height: 24rem;
+  border: 1px solid #CCCCCC;
+}
+.se1 div.current {
+  width: 100%;
+  height: 9.2rem;
+  display: block;
+}
+.se1 .tab1 section {
+  width: 100%;
+  height: 9.5rem;
+}
+.se1 .tab1 section div.tab1_div1 {
+  width: 100%;
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
+}
+.se1 .tab1 section div.tab1_div1 span {
+  width: 3rem;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  text-align: center;
+  border: 2px solid #999999;
+  border-radius: 40px;
+  color: #999999;
+  font-size: 0.4rem;
+  display: block;
+  margin-left: 0.6rem;
+  margin-top: 0.8rem;
+}
+.se1 .tab1 section div.tab1_div1 span i {
+  font-size: 0.4rem;
+}
+.se1 .tab1 section div.tab1_div1 span i:nth-child(1) {
+  color: #AAE6C9;
+}
+.se1 .tab1 section div.tab1_div1 img {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+}
+.se1 .tab1 section div.tab1_div1 p {
+  width: 10rem;
+  text-align: center;
+  font-size: 0.6em;
+}
+.se1 .tab1 section div.tab1_div1 p i {
+  font-size: 0.8em;
+}
+.se1 .tab1 section div.tab1_div2 {
+  width: 100%;
+  height: 6.5rem;
+}
+.se1 .tab1 section div.tab1_div2 p {
+  display: block;
+  width: 3.3rem;
+  height: 3rem;
+  float: left;
+  text-align: center;
+}
+.se1 .tab1 section div.tab1_div2 p span.p_sp1 {
+  font-size: 0.43rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+.se1 .tab1 section div.tab1_div2 p span.p_sp2 {
+  display: block;
+  font-size: 0.37rem;
+}
+.se1 .tab1 section div.tab1_div2 p i {
+  margin-top: 0.3rem;
+  display: block;
+  font-size: 0.9rem;
+  color: #31C27C;
+}
+.se1 .tab1 section div.tab1_div3 {
+  width: 99%;
+  height: 0.28rem;
+  background: #e8e8e8;
+}
+.se1 .tab1 section div.tab1_div4 {
+  width: 99%;
+  height: 2.1rem;
+  border-bottom: 1px solid #CCCCCC;
+}
+.se1 .tab1 section div.tab1_div4 img {
+  display: block;
+  width: 2.1rem;
+  height: 2.1rem;
+  float: left;
+}
+.se1 .tab1 section div.tab1_div4 p {
+  margin-top: 0.4rem;
+  margin-left: 0.08rem;
+  width: 7.5rem;
+  padding: 0.1rem;
+  font-size: 0.5rem;
+  font-weight: bold;
+  line-height: 0.7rem;
+  float: left;
+}
+.se1 .tab1 section div.tab1_div4 p span {
+  font-size: 0.4rem;
+  font-weight: normal;
+  color: #666666;
+}
+.se1 .tab1 section div.tab1_div5 {
+  width: 99%;
+  height: 1.39rem;
+  border-bottom: 1px solid #CCCCCC;
+}
+.se1 .tab1 section div.tab1_div5 p {
+  width: 9rem;
+  text-align: center;
+  font-size: 0.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.39rem;
+  float: left;
+  font-weight: bold;
+}
+.se1 .tab1 section div.tab1_div5 i {
+  display: block;
+  width: 0.8rem;
+  height: 1.39rem;
+  line-height: 1.39rem;
+  font-size: 0.6rem;
+  float: left;
+}
+.se1 .tab2 #slider {
+  width: 100%;
+  height: 4.3rem;
+  background: #31C27C;
+  cursor: pointer;
+}
+.se1 .tab2 #slider #slide li {
+  float: left;
+  position: relative;
+  top: 0;
+  display: none;
+}
+.se1 .tab2 #slider #slide li img {
+  width: 100%;
+  height: 4.3rem;
+}
+.se1 .tab2 #slider #slide li.active {
+  display: block;
+}
+.se1 .tab2 #navigation {
+  position: absolute;
+  top: 6rem;
+  right: 4rem;
+  z-index: 99;
+}
+.se1 .tab2 #navigation ul li {
+  float: left;
+  width: 0.2rem;
+  height: 0.2rem;
+  background: #ebebeb;
+  margin: 10px;
+  text-align: center;
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  border-radius: 0.2rem;
+}
+.se1 .tab2 #navigation ul li.current {
+  background: #5F9EA0;
+  color: #fff;
+}
+.se1 .tab2 p.na {
+  font-size: 50px;
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  z-index: 100;
+}
+.se1 .tab2 p.na a {
+  display: block;
+  width: 0.4rem;
+  height: 0.6rem;
+  opacity: 0.5;
+  background: #ccc;
+}
+.se1 .tab2 p.na a#pravice {
+  float: left;
+}
+.se1 .tab2 p.na a#next {
+  float: right;
+}
+.se1 .mid {
+  width: 100%;
+  height: 3.4rem;
+}
+.se1 .mid > p.midP {
+  width: 33%;
+  height: 1.6rem;
+  border: 1px solid #CCCCCC;
+  display: block;
+  float: left;
+}
+.se1 .mid > p.midP i {
+  margin-left: 0.4rem;
+  font-size: 1rem;
+  color: #31C27C;
+}
+.se1 .mid > p.midP span {
+  font-size: 0.4rem;
+}
+
+.se1 > div {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: 1.6rem;
+  background: #f2f2f2;
+  position: fixed;
+  font-size: 1rem;
+  bottom: 0;
+}
+footer img {
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  display: block;
+  border-radius: 0.7rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  float: left;
+}
+footer img.rotate {
+  -webkit-animation: circle 3s infinite linear;
+}
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+footer i {
+  font-size: 1rem;
+  color: #31C27C;
+  display: block;
+  float: right;
+  margin-right: 1rem;
+  line-height: 1.4rem;
+  display: none;
+}
+footer i.play {
+  display: block;
+}
+footer p {
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  width: 5.8rem;
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: black;
+  float: left;
+  line-height: 0.6rem;
+}
+footer p span {
+  font-weight: normal;
+  color: #31C27C;
+}
+footer audio {
+  display: block;
+  width: 5.5rem;
+  height: 1.5rem;
+}
+
+/*# sourceMappingURL=index_zhang.css.map */

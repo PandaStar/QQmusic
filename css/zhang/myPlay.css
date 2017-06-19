@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  overflow-x: hidden; }
+
+section.video {
+  width: 100%;
+  height: 6rem;
+  position: fixed;
+  top: 0rem; }
+  section.video video {
+    width: 10.3rem;
+    height: 6rem;
+    margin-top: -0.15rem; }
+
+.none {
+  width: 100%;
+  height: 6rem; }
+
+.videoName {
+  width: 100%;
+  height: 1.7rem; }
+  .videoName h3 {
+    width: 70%;
+    height: 0.7rem;
+    font-size: 0.6rem;
+    display: block;
+    float: left;
+    margin-left: 0.3rem; }
+  .videoName h4 {
+    width: 20%;
+    height: 0.7rem;
+    float: left;
+    text-align: right; }
+  .videoName h4 > i {
+    text-align: right;
+    display: none;
+    width: 20%;
+    height: 0.7rem;
+    font-size: 0.45rem;
+    line-height: 0.7rem;
+    color: #666666; }
+  .videoName h4 > i.on {
+    float: right;
+    display: block; }
+  .videoName p.name, .videoName p.information {
+    margin-left: 0.3rem;
+    line-height: 0.6rem;
+    clear: both;
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.4rem; }
+  .videoName p.name {
+    color: gray; }
+  .videoName p.information {
+    width: 90%;
+    color: #1a1a1a; }
+    .videoName p.information span {
+      color: #67d29e; }
+
+#tab {
+  margin-top: 1rem; }
+  #tab li {
+    height: auto;
+    display: none; }
+  #tab li.current {
+    display: block; }
+    #tab li.current section.more {
+      width: 100%; }
+      #tab li.current section.more div {
+        margin-bottom: 0.5rem;
+        width: 25%;
+        height: 1.7rem;
+        float: left;
+        text-align: center;
+        line-height: 0.85rem;
+        color: gray; }
+        #tab li.current section.more div i {
+          font-size: 0.8rem; }
+        #tab li.current section.more div p {
+          font-size: 0.4rem; }
+      #tab li.current section.more .next {
+        clear: both;
+        height: 1.6rem;
+        border-top: 1px solid #b3b3b3; }
+        #tab li.current section.more .next p {
+          width: 70%;
+          height: 1.6rem;
+          margin-left: 10%;
+          float: left;
+          font-size: 0.5rem;
+          text-align: center;
+          line-height: 1.6rem;
+          color: #333333; }
+        #tab li.current section.more .next i {
+          display: block;
+          width: 20%;
+          height: 1.6rem;
+          line-height: 1.6rem;
+          float: right;
+          text-align: center;
+          font-size: 0.6rem;
+          color: #666666; }
+    #tab li.current .others {
+      width: 48%;
+      height: 4rem;
+      float: left;
+      margin: 0.1rem; }
+      #tab li.current .others img {
+        width: 100%;
+        height: 4rem; }
+    #tab li.current .next {
+      clear: both;
+      height: 1.6rem;
+      border-top: 1px solid #b3b3b3; }
+      #tab li.current .next p {
+        width: 70%;
+        height: 1.6rem;
+        margin-left: 10%;
+        float: left;
+        font-size: 0.5rem;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.6rem;
+        color: #333333; }
+      #tab li.current .next i {
+        display: block;
+        width: 20%;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        float: right;
+        text-align: center;
+        font-size: 0.6rem;
+        color: #666666; }
+    #tab li.current .another {
+      width: 100%;
+      height: 2rem; }
+      #tab li.current .another img {
+        display: block;
+        margin-left: 0.5rem;
+        width: 1.7rem;
+        height: 1.7rem;
+        float: left; }
+      #tab li.current .another p {
+        width: 70%;
+        float: left;
+        margin-left: 0.5rem;
+        font-size: 0.5rem;
+        font-weight: bold;
+        line-height: 0.8rem;
+        color: #333333; }
+        #tab li.current .another p span {
+          font-size: 0.4rem;
+          color: #666666; }
+  #tab .intro {
+    text-indent: 0.4rem;
+    margin-left: 0.3rem;
+    width: 98%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.4rem;
+    color: gray; }
+
+.video i {
+  display: none; }
+.video .play1 {
+  display: block;
+  position: fixed;
+  font-size: 2rem;
+  color: white;
+  top: 1.5rem;
+  left: 4rem; }
+
+.others i {
+  display: none; }
+.others .play1 {
+  position: relative;
+  display: block;
+  font-size: 2rem;
+  color: white;
+  top: -3rem;
+  left: 1.5rem; }
+
+#back1 {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 333; }
+
+/*# sourceMappingURL=myPlay.css.map */
